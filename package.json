@@ -1,0 +1,24 @@
+{
+  "name": "amazing-graceful-fs",
+  "main": "./lib.js",
+  "version": "0.0.1",
+  "description": "A drop-in replacement for fs, making various improvements.",
+  "author": {
+    "name": "Ben Noordhuis",
+    "email": "info@bnoordhuis.nl",
+    "url": "http://bnoordhuis.nl/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bnoordhuis/amazing-graceful-fs.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.0",
+    "rimraf": "^2.2.8",
+    "tap": "^1.2.0"
+  }
+}
